@@ -13,6 +13,9 @@ dependencies:
     version: 18.2.0(react@18.2.0)
 
 devDependencies:
+  '@biomejs/biome':
+    specifier: 1.4.1
+    version: registry.npmmirror.com/@biomejs/biome@1.4.1
   '@types/react':
     specifier: ^18.2.43
     version: 18.2.46
@@ -250,6 +253,88 @@ packages:
     optionalDependencies:
       fsevents: registry.npmmirror.com/fsevents@2.3.3
     dev: true
+
+  registry.npmmirror.com/@biomejs/biome@1.4.1:
+    resolution: {integrity: sha512-JccVAwPbhi37pdxbAGmaOBjUTKEwEjWAhl7rKkVVuXHo4MLASXJ5HR8BTgrImi4/7rTBsGz1tgVD1Kwv1CHGRg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@biomejs/biome/-/biome-1.4.1.tgz}
+    name: '@biomejs/biome'
+    version: 1.4.1
+    engines: {node: '>=14.*'}
+    hasBin: true
+    requiresBuild: true
+    optionalDependencies:
+      '@biomejs/cli-darwin-arm64': registry.npmmirror.com/@biomejs/cli-darwin-arm64@1.4.1
+      '@biomejs/cli-darwin-x64': registry.npmmirror.com/@biomejs/cli-darwin-x64@1.4.1
+      '@biomejs/cli-linux-arm64': registry.npmmirror.com/@biomejs/cli-linux-arm64@1.4.1
+      '@biomejs/cli-linux-x64': registry.npmmirror.com/@biomejs/cli-linux-x64@1.4.1
+      '@biomejs/cli-win32-arm64': registry.npmmirror.com/@biomejs/cli-win32-arm64@1.4.1
+      '@biomejs/cli-win32-x64': registry.npmmirror.com/@biomejs/cli-win32-x64@1.4.1
+    dev: true
+
+  registry.npmmirror.com/@biomejs/cli-darwin-arm64@1.4.1:
+    resolution: {integrity: sha512-PZWy2Idndqux38p6AXSDQM2ldRAWi32bvb7bMbTN0ALzpWYMYnxd71ornatumSSJYoNhKmxzDLq+jct7nZJ79w==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@biomejs/cli-darwin-arm64/-/cli-darwin-arm64-1.4.1.tgz}
+    name: '@biomejs/cli-darwin-arm64'
+    version: 1.4.1
+    engines: {node: '>=14.*'}
+    cpu: [arm64]
+    os: [darwin]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  registry.npmmirror.com/@biomejs/cli-darwin-x64@1.4.1:
+    resolution: {integrity: sha512-soj3BWhnsM1M2JlzR09cibUzG1owJqetwj/Oo7yg0foijo9lNH9XWXZfJBYDKgW/6Fomn+CC2EcUS+hisQzt9g==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@biomejs/cli-darwin-x64/-/cli-darwin-x64-1.4.1.tgz}
+    name: '@biomejs/cli-darwin-x64'
+    version: 1.4.1
+    engines: {node: '>=14.*'}
+    cpu: [x64]
+    os: [darwin]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  registry.npmmirror.com/@biomejs/cli-linux-arm64@1.4.1:
+    resolution: {integrity: sha512-YIZqfJUg4F+fPsBTXxgD7EU2E5OAYbmYSl/snf4PevwfQCWE/omOFZv+NnIQmjYj9I7ParDgcJvanoA3/kO0JQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@biomejs/cli-linux-arm64/-/cli-linux-arm64-1.4.1.tgz}
+    name: '@biomejs/cli-linux-arm64'
+    version: 1.4.1
+    engines: {node: '>=14.*'}
+    cpu: [arm64]
+    os: [linux]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  registry.npmmirror.com/@biomejs/cli-linux-x64@1.4.1:
+    resolution: {integrity: sha512-9YOZw3qBd/KUj63A6Hn2zZgzGb2nbESM0qNmeMXgmqinVKM//uc4OgY5TuKITuGjMSvcVxxd4dX1IzYjV9qvNQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@biomejs/cli-linux-x64/-/cli-linux-x64-1.4.1.tgz}
+    name: '@biomejs/cli-linux-x64'
+    version: 1.4.1
+    engines: {node: '>=14.*'}
+    cpu: [x64]
+    os: [linux]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  registry.npmmirror.com/@biomejs/cli-win32-arm64@1.4.1:
+    resolution: {integrity: sha512-nWQbvkNKxYn/kCQ0yVF8kCaS3VzaGvtFSmItXiMknU4521LDjJ7tNWH12Gol+pIslrCbd4E1LhJa0a3ThRsBVg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@biomejs/cli-win32-arm64/-/cli-win32-arm64-1.4.1.tgz}
+    name: '@biomejs/cli-win32-arm64'
+    version: 1.4.1
+    engines: {node: '>=14.*'}
+    cpu: [arm64]
+    os: [win32]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  registry.npmmirror.com/@biomejs/cli-win32-x64@1.4.1:
+    resolution: {integrity: sha512-88fR2CQxQ4YLs2BUDuywWYQpUKgU3A3sTezANFc/4LGKQFFLV2yX+F7QAdZVkMHfA+RD9Xg178HomM/6mnTNPA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@biomejs/cli-win32-x64/-/cli-win32-x64-1.4.1.tgz}
+    name: '@biomejs/cli-win32-x64'
+    version: 1.4.1
+    engines: {node: '>=14.*'}
+    cpu: [x64]
+    os: [win32]
+    requiresBuild: true
+    dev: true
+    optional: true
 
   registry.npmmirror.com/@esbuild/aix-ppc64@0.19.11:
     resolution: {integrity: sha512-FnzU0LyE3ySQk7UntJO4+qIiQgI7KoODnZg5xzXIrFJlKd2P2gwHsHY4927xj9y5PJmJSzULiUCWmv7iWnNa7g==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@esbuild/aix-ppc64/-/aix-ppc64-0.19.11.tgz}
