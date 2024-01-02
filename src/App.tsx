@@ -7,6 +7,7 @@ const App: FC = () => {
   return (
     <div>
       <button
+        type="button"
         className="button primary"
         onClick={() => setCount((count) => count + 1)}
       >
