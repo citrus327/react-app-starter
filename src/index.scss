@@ -1,0 +1,22 @@
+@import "https://unpkg.com/open-props";
+
+.button {
+  background: white;
+  color: var(--indigo-8);
+  font-size: var(--font-size-3);
+  padding-inline: var(--size-8);
+  padding-block: var(--size-3);
+  border-radius: var(--radius-2);
+  border: none;
+  box-shadow: var(--shadow-2);
+}
+
+.button.primary {
+  background: var(--indigo-8);
+  text-shadow: 0 1px 0 var(--indigo-9);
+  color: white;
+}
+
+.button.primary:hover {
+  background: var(--indigo-7);
+}
